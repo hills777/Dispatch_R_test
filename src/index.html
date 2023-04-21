@@ -1,0 +1,139 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Landing_Page </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            brownlight: '#DDDDDD',
+          },
+          fontFamily:{
+        'plus': ['"Plus Jakarta Sans"', sans-serif]
+      },
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-plus">
+    <!--nav bar-->
+    <nav class="flex  py-1 bg-white backdrop-blur-md hover:shadow-md w-full fixed top-0 left-0 right-0 z-10">
+        <div class="col-span-3 flex justify-between">
+            <a href="#home">
+                <img src="image/Group 2.png" alt="logo" class="p-2">
+            </a>
+        </div>
+    </nav>
+    <!--main body section-->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-0">
+        <div class=" bg-white col-span-3 h-auto text-center">
+            <P class="font-bold not-italic text-4xl md:text-8xl mt-32">Find available</P>
+            <P class="font-bold not-italic text-4xl md:text-8xl mb-8">Dispatch Riders</P>
+            <div class="hidden md:block">
+            <P class="pb-2 md:pb-8 font-bold text-xl md:text-4xl"><span class="text-green-600">Nearest </span>to you · With the <span class="text-green-600">best pricing</span> · Proven to be <span class="text-green-600"> reliable</span></P>
+            </div>
+            <div class="md:hidden">
+            <P class="pb-2 md:pb-8 font-bold text-xl md:text-4xl"><span class="text-green-600">Nearest </span>to you</P>
+            <P class="pb-2 md:pb-8 font-bold text-xl md:text-4xl">With the <span class="text-green-600">best pricing</span></P>
+            <P class="pb-6 md:pb-8 font-bold text-xl md:text-4xl">Proven to be <span class="text-green-600"> reliable</span></P>
+            </diV>
+        </div>
+    </div>
+    <div class="flex items-center justify-center">
+        <div class="w-full">
+          <div class="flex w-full flex-col items-center justify-center gap-4 bg-[#d3d4d6] p-10">
+            <div class="flex w-full items-center justify-center rounded bg-white p-6 shadow-md">
+              <div class="w-full max-w-6xl">
+                <div class="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-10">
+                  <input type="text" class="rounded border border-solid border-gray-400 px-4 py-1.5" placeholder="City" />
+                  <input type="text" class="rounded border border-solid border-gray-400 px-4 py-1.5" placeholder="Picking Area" />
+                  <input type="text" class="rounded border border-solid border-gray-400 px-4 py-1.5" placeholder="Destination Area" />
+                </div>
+              </div>
+            </div>
+            <div class="z-50 -mt-9"><button class="rounded-3xl bg-white px-4 py-1.5 shadow-md">View riders</button></div>
+          </div>
+        </div>
+      </div>
+      
+    
+    <div class="text-center grid grid-cols-1">
+        <h2 class="text-3xl md:text-4xl font-bold mt-20 md:mt-4 mb-4">What you gain</h2>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3">
+        <div class="bg-white">
+            <h3 class="font-bold text-2xl md:text-3xl pl-4 pt-2">Save time and still find the best option</h3>
+            <p class="text-xl pl-4 pb-4">You do not have to go through the hassle of calling several riders to find out who is available and offer the best pricing. You get that all at once.</p>
+        </div>
+   
+        <div class="bg-white">
+            <h3 class="font-bold text-2xl md:text-3xl pt-2 pl-4">Cheaper cost & faster delivery</h3>
+            <p class="text-xl pt-9 pl-4">With the ability to find riders nearby the distance to pick up your package is shorter. Hence, cost of delivery is cheaper and delivery speed is potentially increased.</p>
+        </div>
+        <div class="bg-white">
+            <h3 class="font-bold text-2xl md:text-3xl pt-2 pl-4">Riders you can rely on</h3>
+            <p class="text-xl pt-9 pl-4">With riders being rated by users like you and our recommendation system, you can see easily determine how reliable they will be.</p>
+        </div>
+    </div>
+   
+    <div class="flex items-center justify-center w-full">
+        <hr class="border-2 bg-gray-400 w-full h-1 my-6 ml-6 mr-6">
+    </div>
+    <div class="col-span-3 text-center border-1 border-solid border-black">
+        <h2 class="text-4xl font-bold mt-4">What we provide</h2>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 font-semibold">
+        <div class="bg-white">
+            <div class="flex mt-4 pb-4">
+            <img src="image/Ellipse 1.png" alt="" class="pl-4">
+            <p class="pl-4 pt-3 text-xl font-semibold">Directory of dispatch riders</p>
+            </div>
+            <div class="flex">
+            <img src="image/Ellipse 1.png" alt="" class="pb-5 pl-4">
+            <p class="pl-4 pt-3 pb-4 text-xl font-semibold">Upfront cost of delivery</p>
+            </div>
+        </div>
+        <div class="bg-white">
+            <div class="flex mt-4 pb-4">
+            <img src="image/Ellipse 1.png" alt="" class="pl-4">
+            <p class="pl-4 pt-3 text-xl font-semibold">Dispatch riders near you</p>
+            </div>
+            <div class="flex">
+            <img src="image/Ellipse 1.png" alt="" class="pb-5 pl-4">
+            <p class="pl-4 pt-3 text-xl font-semibold">Reliability of a dispatch rider</p>
+            </div>
+        </div>
+    </div>
+    <div class="grid grid-cols-3">
+        <div class="bg-[#D9D9D9] col-span-3 pl-6 pt-8 pb-8 h-52">
+            <div class="text-4xl font-semibold pt-8">
+                <h3>Ready to send a package?</h3>
+            </div>
+            <div class="mt-4">
+                <button class="bg-white rounded-3xl pl-4 pr-4 text-lg">Find available riders</button>
+            </div>
+        </div>
+    </div>
+    <div class="flex items-center justify-center w-full">
+        <hr class="border-2 bg-gray-400 w-full h-1 my-6 ml-6 mr-6">
+    </div>
+    <div class="grid grid-cols-2 mb-10">
+        <div class="bg-white ">
+            <h3 class="font-semibold text-2xl md:text-4xl pl-4 mt-1">DispatchConnect</h3>
+            <p class="pl-4 pt-2 text-left">DispatchConnect is a plaform that helps connects a sender of an item to logistics companies who perform the delivery. Our goal is to provide access to the best services for senders.</p>
+        </div>
+        <div class="bg-white">
+            <h3 class="font-semibold text-2xl md:text-4xl mt-1 pl-4">Contact us</h3>
+            <p class="pt-2 break-words pl-4">Email:help@dispatchconnect.com</p>
+            <p class="pl-4">Phone:+23480808080</p>
+            <p class="pl-4">Address:FCT,Abuja.</p>
+        </div>
+    </div>
+</body>
+</html>

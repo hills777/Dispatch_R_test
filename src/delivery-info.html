@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Info_Page </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            brownlight: '#DDDDDD',
+          },
+          fontFamily:{
+        'plus': ['"Plus Jakarta Sans"', sans-serif]
+      },
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-plus">
+    <div class="grid grid-cols-1 gap-0">
+        <div class="col-span-3 flex justify-between">
+           <img src="image/Group 2.png" alt="logo" class="p-2 h-14 w-32">
+           <img src="image/Ellipse 1.png" alt="shape" class="justify-end p-2 h-14 w-16">
+        </div>
+        <div class="relative flex py-2 items-center">
+            <div class="flex-grow border-t border-gray-400 shadow-lg"></div>
+            <div class="flex-grow border-t border-gray-400 shadow-lg"></div>
+        </div>
+    </div>
+    <div class="grid grid-cols-2">
+        <div class="col-span-1">
+            <div><p class="ml-10 mt-8 text-5xl font-bold mb-8">Delivery Information</p></div>
+            <form class="">
+             <div class="mb-8">
+            <label class="block text-gray-500 text-sm font-bold ml-10 mb-2 text-left" for="item_name">
+                        item name
+            </label>
+            <input class="shadow border rounded ml-10 w-96 md:w-[34rem] py-2 px-3 text-gray-700 leading-tight" id="" type="text" placeholder="">
+            </div>
+        </div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-0">
+        <div class="items-center">
+            <div class="mb-4">
+                <p class="text-3xl font-bold text-left ml-10 mb-4">Pickup</p>
+                <label class="block text-gray-500 text-sm font-bold ml-10 mb-2 text-left" for="">
+                            Area
+                </label>
+                <input class="shadow border rounded ml-10 w-96 md:w-[34rem] py-2 px-3 text-gray-700 leading-tight" id="area" type="text" placeholder="Wuse">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-500 text-sm font-bold ml-10 mb-2 text-left" for="">
+                            Address
+                </label>
+                <input class="shadow border rounded ml-10 w-96 md:w-[34rem] py-2 px-3 text-gray-700 leading-tight" id="address" type="text" placeholder="">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-500 text-sm font-bold ml-10 mb-2 text-left" for="">
+                            Contact's name
+                </label>
+                <input class="shadow border rounded ml-10 w-96  md:w-[34rem] py-2 px-3 text-gray-700 leading-tight" id="contact-name" type="text" placeholder="">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-500 text-sm font-bold ml-10 mb-2 text-left" for="">
+                            Contact's phone number
+                </label>
+                <input class="shadow border rounded ml-10 w-96  md:w-[34rem] py-2 px-3 text-gray-700 leading-tight" id="contact-number" type="text" placeholder="">
+            </div>
+            </form>
+        </div>
+        <div class="items-center">
+            <div class="mb-4">
+                <p class="text-3xl font-bold text-left ml-10 mb-4">Destination</p>
+                <label class="block text-gray-500 text-sm font-bold ml-10 mb-2 text-left" for="">
+                            Area
+                </label>
+                <input class="shadow border rounded ml-10 w-96 md:w-[34rem] py-2 px-3 text-gray-700 leading-tight" id="area" type="text" placeholder="Gwarinpa">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-500 text-sm font-bold ml-10 mb-2 text-left" for="">
+                            Address
+                </label>
+                <input class="shadow border rounded ml-10 w-96  md:w-[34rem] py-2 px-3 text-gray-700 leading-tight" id="address" type="text" placeholder="">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-500 text-sm font-bold ml-10 mb-2 text-left" for="">
+                            Contact's name
+                </label>
+                <input class="shadow border rounded ml-10 w-96 md:w-[34rem] py-2 px-3 text-gray-700 leading-tight" id="contact-name" type="text" placeholder="">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-500 text-sm font-bold ml-10 mb-2 text-left" for="">
+                            Contact's phone number
+                </label>
+                <input class="shadow border rounded ml-10 w-96 md:w-[34rem] py-2 px-3 text-gray-700 leading-tight" id="contact-number" type="text" placeholder="">
+            </div>
+            </form>
+        </div>
+    </div>
+    <div class="text-center mt-4 mb-8">
+        <button class="bg-black text-white rounded-3xl pl-8 pr-8 pt-2 pb-2 text-sm">Submit request</button>
+    </div>
+
+</body>
+</html>

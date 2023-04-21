@@ -1,0 +1,8 @@
+#folder
+node_modules
+dist
+firebase
+# config files
+tailwind.config.js
+package-lock.json
+package.json
